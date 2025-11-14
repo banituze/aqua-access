@@ -41,7 +41,7 @@ aqua-access/
 git clone https://github.com/banituze/aqua-access.git
 ```
 
-2. Open the website:
+2. Open the website :
 - Simply open `index.html` in your web browser
 - Or use a local development server:
 ```
@@ -66,5 +66,5 @@ npx http-server
 
 ## Acknowledgments
 
-- African Leadership College of Higher Education (ALCHE)
-- All communities working towards UN SDG 6: Clean Water and Sanitation
+- African Leadership College of Higher Education
+- All communities working towards UN SDG 6 : Clean Water and Sanitation
