@@ -1,4 +1,4 @@
-# AquaAccess Africa
+# AquaAccess
 
 Innovative, sustainable, community-centered clean water solutions across Africa.
 
