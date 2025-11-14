@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact | AquaAccess</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+</head>
+<body id="page4">
+<div class="body1">
+  <div class="main">
+    <header>
+      <div class="wrapper">
+        <nav>
+          <a href="index.html" class="log">AquaAccess</a>
+          <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mission.html">Mission</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="impact.html">Impact</a></li>
+            <li class="end active"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="wrapper">
+        <h1><a href="index.html" id="logo">AquaAccess</a></h1>
+      </div>
+      <div id="slogan"> Let's Connect<span>and create impact together</span> </div>
+    </header>
+  </div>
+</div>
+<div class="body2">
+  <div class="main">
+   <section id="content">
+    <div class="box1">
+      <div class="wrapper">
+        <article class="col1">
+          <div class="pad_left1">
+            <h2>Contact Form</h2>
+            <form id="ContactForm" onsubmit="event.preventDefault(); const email=document.getElementById('email').value; alert('Your message has been received. You will get a reply at ' + email + '.'); this.reset();" action="#" method="post">
+              <div>
+                <div class="wrapper"> <strong>Name:</strong>
+                  <div class="bg">
+                    <input id="name" name="name" type="text" class="input" required minlength="2" placeholder="Your full name">
+                  </div>
+                </div>
+                <br>
+                <div class="wrapper"> <strong>Email:</strong>
+                  <div class="bg">
+                    <input id="email" name="email" type="email" class="input" required placeholder="you@example.com">
+                  </div>
+                </div>
+                <br>
+                <div class="wrapper"> <strong>Topic:</strong>
+                  <div class="bg">
+                    <select id="topic" name="topic" class="input" required aria-label="Select a topic">
+                      <option value="" selected>Select a topic...</option>
+                      <option value="Collaboration">Collaboration</option>
+                      <option value="Volunteer">Volunteer</option>
+                      <option value="General Inquiry">General Inquiry</option>
+                    </select>
+                  </div>
+                </div>
+                <br>
+                <div class="textarea_box"> <strong>Message:</strong>
+                  <div class="bg">
+                    <textarea id="message" name="message" cols="1" rows="4" required minlength="10" placeholder="Write a short message"></textarea>
+                  </div>
+                </div>
+                <div id="notice" style="display:none; margin:10px 0; color:#2b8a3e; font-weight:bold;"></div>
+                <button type="submit" class="button"><span><span>Submit</span></span></button>
+                <button type="reset" class="button"><span><span>Clear</span></span></button>
+              </div>
+            </form>
+          </div>
+        </article>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="wrapper">
+        <div class="pad1">
+          <div class="pad_left1">
+            <div class="wrapper">
+              <article class="col_1">
+                <h3>Address:</h3>
+                <p class="col_address"><strong>Country:<br>
+                  City:<br>
+                  Email:<br>
+                  Phone:</strong></p>
+                <p>Mauritius<br>
+                  Pamplemousses<br>
+                  <a href="mailto:info@winebald.tech">info@winebald.tech</a><br>
+                  <a href="tel:+23055198529">+230 5519 8529</a></p>
+              </article>
+              <article class="col_2 pad_left2">
+                <h3>Links:</h3>
+                <ul class="list2">
+                  <li><a href="mission.html">Mission</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="impact.html">Impact</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </article>
+              <article class="col_4 pad_left2">
+                <h3>Newsletter:</h3>
+                <form id="newsletter" action="#" method="post" onsubmit="event.preventDefault(); alert('Thanks for subscribing!').reset();">
+                  <div class="wrapper">
+                    <div class="bg">
+                      <input type="text">
+                    </div>
+                  </div>
+                  <button type="submit" class="button"><span><span><strong>Subscribe</strong></span></span></button>
+                </form>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+</body>
+</html>
